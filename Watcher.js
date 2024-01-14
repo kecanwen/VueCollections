@@ -4,7 +4,7 @@
 * 观察者对象可以用于实现计算属性（Computed Property）、侦听器（Watcher）和渲染函数（Render Function）等功能
 */
 
-var Watcher = function Watcher(
+var watcher = function Watcher(
   vm, //vm dom
   expOrFn, //获取值的函数，或者是更新viwe试图函数
   cb, //回调函数,回调值给回调函数
