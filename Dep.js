@@ -12,7 +12,7 @@ export class Dep{
             this.subscribers.add(activeEffect)
         }
     }
-    // 通知 每个订阅者 进行更新
+    // 通知 每个订阅者watcher 进行更新
     notify() {
         for (const effect of this.subscribers){
             effect();
