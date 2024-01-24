@@ -7,7 +7,7 @@ export class Dep{
         this.subscribers = new Set()
     }
     // 将活跃 副作用 全部添加进这个 订阅者集合
-    depend(dep){
+    depend(activeEffect){
         if(activeEffect){
             this.subscribers.add(activeEffect)
         }
