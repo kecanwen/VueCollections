@@ -8,8 +8,8 @@ export class Dep{
     }
     // 将活跃 副作用 全部添加进这个 订阅者集合
     depend(dep){
-        if(activeEffect){
-            this.subscribers.add(activeEffect)
+        if(dep){
+            this.subscribers.add(dep)
         }
     }
     // 通知 每个订阅者 进行更新
