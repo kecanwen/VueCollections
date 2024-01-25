@@ -1,15 +1,11 @@
 <h1 align="center">KK_Vue_Code_Leaen</h1>
 
-## 已完成
-- vue.js vue2 完整源码
-- watcher.js  实现一个观察者对象watcher
-- nextTick.js 实现一个nextTick函数
-- keepalive.js 实现一个keepalive组件
-- vueReArray.js Vue2 重写数组方法
-
-
-## 未完成
-
+## 开发计划
+- [x] vue.js vue2 完整源码注释
+- [x] watcher.js  实现一个观察者对象watcher
+- [x] nextTick.js 实现一个nextTick函数
+- [x] keepalive.js 实现一个keepalive组件
+- [x] vueReArray.js Vue2 重写数组方法
 - [ ] Reactive 设计一个响应式系统
 - [ ] diff算法实现
 - [ ] patch的过程
