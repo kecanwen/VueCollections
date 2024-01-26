@@ -29,4 +29,35 @@
 
 - [x] 实现lodash的set和get方法  lodashGetSet.js
 - [x] 实现版本号对比方法  compareVersion.js
- 
+- [ ] 手写 Object.create
+- [ ] 手写 instanceof 方法
+- [ ] 手写 new 操作符
+- [ ] 手写 Promise
+- [ ] 手写 Promise.then
+- [ ] 手写 Promise.all
+- [ ] 手写 Promise.race
+- [ ] 手写防抖函数
+- [ ] 手写节流函数
+- [ ] 手写类型判断函数  
+- [ ] 手写 call 函数
+- [ ] 手写 apply 函数
+- [ ] 手写 bind 函数
+- [ ] V函数柯里化的实现
+- [ ] 实现AJAX请求
+- [ ] 使用Promise封装AJAX请求
+- [ ] 实现浅拷贝
+- [ ] 手写 new 操作符
+- [ ] 手写 Promise
+- [ ] 手写 Promise.then
+- [ ] 手写 Promise.all
+- [ ] 手写 Promise.race
+- [ ] 手写防抖函数
+- [ ] 手写节流函数
+- [ ] 手写类型判断函数  
+- [ ] 手写 call 函数
+- [ ] 手写 apply 函数
+- [ ] 手写 bind 函数
+- [ ] V函数柯里化的实现
+- [ ] 实现AJAX请求
+- [ ] 使用Promise封装AJAX请求
+- [ ] 实现浅拷贝
