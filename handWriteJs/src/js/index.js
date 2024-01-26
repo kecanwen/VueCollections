@@ -1,12 +1,12 @@
 import { lodashGet, lodashSet} from './lodashGetSet.js'
-
-lodashGet()
+import { compareVersion } from './compareVersion.js'
 
 export {
     lodashGet,
-    lodashSet
+    lodashSet,
 }
 
+// * 1、 lodashGet  lodashSet
 
 const obj = {
     a: {
@@ -24,3 +24,15 @@ console.log(defaultValue); // 输出：默认值
 
 lodashSet(obj, 'a.b.c', '新的abc1111');
 console.log(obj); 
+
+// * 2、 compareVersion
+
+console.log('───────────────────────');
+console.log(
+    compareVersion('1.2.3','1.5.6'),// -1
+    compareVersion('3.2.3','1.5.6'),// 1
+    compareVersion('1.2.3','1.2.3'),// 0
+    compareVersion('1.2','1.1.3'),// 1
+    compareVersion('1.2.5','1.3'),// -1 
+    compareVersion('1.2','1.2')// 0
+)
