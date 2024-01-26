@@ -1,6 +1,9 @@
-<h1 align="center">KK_Vue_Code_Leaen</h1>
+<h1 align="center">KK_Vue_Code_Learn</h1>
 
 ## 开发计划
+
+<h3 align="center">vue源码</h3>
+
 - [x] vue.js vue2 完整源码注释
 - [x] watcher.js  实现一个观察者对象watcher
 - [x] nextTick.js 实现一个nextTick函数
@@ -20,4 +23,9 @@
 - [ ] Transition组件的实现
 - [ ] Vuex的实现
 - [ ] Vue-router的实现
+
+
+<h3 align="center">手写原生Js [KK_Vue_Code_Learn/handwriteJs]</h3>
+
+- [x] 实现lodash的set和get方法  lodashGetSet.js
  
