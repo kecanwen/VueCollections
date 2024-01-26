@@ -28,4 +28,5 @@
 <h3 align="center">手写原生Js [KK_Vue_Code_Learn/handwriteJs]</h3>
 
 - [x] 实现lodash的set和get方法  lodashGetSet.js
+- [x] 实现版本号对比方法  compareVersion.js
  
