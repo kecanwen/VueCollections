@@ -28,7 +28,6 @@
 <h3 align="center">手写原生Js [KK_Vue_Code_Learn/handwriteJs]</h3>
 
 - [x] 实现lodash的set和get方法  lodashGetSet.js
-- [x] 实现版本号对比方法  compareVersion.js
 - [x] 手写 Object.create
 - [x] 手写 instanceof 方法
 - [x] 手写 new 操作符
@@ -57,7 +56,16 @@
 - [ ] 手写 call 函数
 - [ ] 手写 apply 函数
 - [ ] 手写 bind 函数
-- [ ] V函数柯里化的实现
+- [ ] 函数柯里化的实现
 - [ ] 实现AJAX请求
 - [ ] 使用Promise封装AJAX请求
-- [ ] 实现浅拷贝
+
+
+<h3 align="center">算法相关</h3>
+- [x] 实现版本号对比方法  compareVersion.js
+- [x] 轮转数组 rotateArray
+- [x] 多数元素  majorityElement
+- [x] 买卖股票的最佳时机 maxProfit
+- [x] 合并两个有序数组 merge2orderArray
+- [x] 删除有序数组中的重复项 removeDuplicates
+- [x] 移除元素 removeElement
