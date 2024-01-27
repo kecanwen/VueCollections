@@ -29,9 +29,9 @@
 
 - [x] 实现lodash的set和get方法  lodashGetSet.js
 - [x] 实现版本号对比方法  compareVersion.js
-- [ ] 手写 Object.create
-- [ ] 手写 instanceof 方法
-- [ ] 手写 new 操作符
+- [x] 手写 Object.create
+- [x] 手写 instanceof 方法
+- [x] 手写 new 操作符
 - [ ] 手写 Promise
 - [ ] 手写 Promise.then
 - [ ] 手写 Promise.all
