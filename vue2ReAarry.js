@@ -24,12 +24,12 @@ export function arrayObserver(arr){
         // 使用defineProperty对数组进行重写
         Object.defineProperty(arrayObj,method,{
              // 调用原始的数组方法
-            const results = original.apply(this, args);
+            //const results = original.apply(this, args);
              // 触发依赖更新，进行响应式处理
             // ...
             
             // 对数组以上的方法进行变异操作之后  触发依赖更新
-            return results;
+            //return results;
         })
     })
 }
