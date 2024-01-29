@@ -2,28 +2,25 @@ import { createApp } from 'vue'
 import { registerMicroApps, start} from "qiankun"
 import './style.css'
 import App from './App.vue'
-import { arrayObserver } from '../../vue2ReAarry';
 
 //创建主应用实例
 const app = createApp(App);
 
-//注册子应用
 registerMicroApps([
   {
-    name: 'sub-app1',
-    entry: './src/App.vue',
-    container: '#app',
-  },
-], {
-  beforeLoad(app) {
-    console.log('beforeLoad');
-  },
-  afterLoad(app) {
-    console.log('afterLoad');
-  },
-});
+    name: 'react app', // app name registered
+    entry: '//localhost:7100',
+    container: '#yourContainer',
+    activeRule: '/yourActiveRule',
+  }
+],
+{
+  beforeLoad:()=>{
+    console.log('开启应用')
+  }
+}
+);
 
-//启动应用
-start()
+start();
 
 app.mount('#app')
