@@ -2,7 +2,7 @@
  * Vue重写数组方法的源码实现
  * */
 //判断是不是数组  是数组则单独一套处理逻辑
-if (Array.isArray(value)) { 
+if (Array.isArray(value = [])) { 
     var augment = hasProto  //__proto__ 存在么 高级浏览器都会有这个
         ? protoAugment
         : copyAugment;
