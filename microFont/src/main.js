@@ -1,26 +1,41 @@
 import { createApp } from 'vue'
-import { registerMicroApps, start} from "qiankun"
+import { registerMicroApps, start, setDefaultMountApp} from "qiankun"
+import microApps from './microApps'
 import './style.css'
 import App from './App.vue'
 
 //创建主应用实例
 const app = createApp(App);
 
-registerMicroApps([
-  {
-    name: 'react app', // app name registered
-    entry: '//localhost:7100',
-    container: '#yourContainer',
-    activeRule: '/yourActiveRule',
+const subApps = microApps.map(item => {
+  return {
+    ...item,
+    // loader
   }
-],
-{
-  beforeLoad:()=>{
-    console.log('开启应用')
-  }
-}
-);
+})
 
+registerMicroApps(subApps, {
+  beforeLoad: app => {
+    console.log('before load app.name====>>>>>', app.name)
+  },
+  beforeMount: [
+    app => {
+      console.log('[LifeCycle] before mount %c%s', 'color: green;', app.name)
+    }
+  ],
+  afterMount: [
+    app => {
+      console.log('[LifeCycle] after mount %c%s', 'color: green;', app.name)
+    }
+  ],
+  afterUnmount: [
+    app => {
+      console.log('[LifeCycle] after unmount %c%s', 'color: green;', app.name)
+    }
+  ]
+});
+
+setDefaultMountApp('/sub-react')
 start();
 
 app.mount('#app')

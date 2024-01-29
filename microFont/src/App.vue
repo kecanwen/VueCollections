@@ -1,28 +1,70 @@
 <script setup>
+import { ref } from 'vue'
+import microApps from './microApps'
+
+const current = ref('');
+const state = ref('');
+
+function goto(item){
+  console.log(item)
+}
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="layout-wrapper">
+    <div class="layout-header">
+      <div class="logo">qiankun主应用</div>
+      <ul class="sub-apps">
+        <li
+          v-for="item in microApps"
+          :class="{ active: item.activeRule === current }"
+          :key="item.name"
+          @click="goto(item)"
+        >
+          {{ item.name }}
+        </li>
+      </ul>
+      <div class="userinfo">主应用的state：{{ JSON.stringify(state) }}</div>
+    </div>
+    <div id="subapp-viewport"></div>
   </div>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<style lang="scss">
+html, body{
+  margin: 0 !important;
+  padding: 0;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.layout-wrapper{
+    .layout-header{
+      height: 50px;
+      width: 100%;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      line-height: 50px;
+      position: relative;
+     .logo {
+        float: left;
+        margin: 0 50px;
+      }
+      .sub-apps {
+        list-style: none;
+        margin: 0;
+        li{
+          list-style: none;
+          display: inline-block;
+          padding: 0 20px;
+          cursor: pointer;
+          &.active{
+            color: #42b983;
+            text-decoration: underline;
+          }
+        }
+      }
+      .userinfo{
+        position: absolute;
+        right: 100px;
+        top: 10vh;
+      }
+    }
 }
 </style>
