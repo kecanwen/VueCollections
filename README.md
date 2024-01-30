@@ -31,6 +31,7 @@
 - [x] 手写 Object.create
 - [x] 手写 instanceof 方法
 - [x] 手写 new 操作符
+- [x] 手写 Event Bus 
 - [ ] 手写 Promise
 - [ ] 手写 Promise.then
 - [ ] 手写 Promise.all
@@ -70,3 +71,4 @@
 - [x] 合并两个有序数组 merge2orderArray
 - [x] 删除有序数组中的重复项 removeDuplicates
 - [x] 移除元素 removeElement
+- [x] 斐波那契数 fib

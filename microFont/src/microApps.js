@@ -1,7 +1,7 @@
 // import store from './store'
 const microApps = [
   {
-    name: 'sub-react',
+    name: 'brokenSubApp',
     entry: import.meta.env.VITE_APP_SUB_REACT,
     activeRule: '/sub-react'
   },
