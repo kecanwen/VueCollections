@@ -72,3 +72,9 @@
 - [x] 删除有序数组中的重复项 removeDuplicates
 - [x] 移除元素 removeElement
 - [x] 斐波那契数 fib
+
+
+<h3 align="center">场景类 [sence]</h3>
+
+- [x] heartbeat 实现一个心跳的按钮,要求缩小的时间比放大的时间长
+- [x] IntersectionObserver 判断当前元素 进入视口
