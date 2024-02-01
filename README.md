@@ -32,6 +32,7 @@
 - [x] 手写 instanceof 方法
 - [x] 手写 new 操作符
 - [x] 手写 Event Bus 
+- [x] 手写forEach
 - [ ] 手写 Promise
 - [ ] 手写 Promise.then
 - [ ] 手写 Promise.all
