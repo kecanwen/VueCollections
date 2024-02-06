@@ -1,7 +1,30 @@
-# Vue 3 + Vite
+# microFont
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+主应用 vue，子应用使用 `react`, `vue` 和 `原生HTML`。
 
-## Recommended IDE Setup
+https://juejin.im/post/6875462470593904653
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 开始
+安装根目录工程依赖
+```
+npm i
+```
+一键安装所有主子应用的依赖
+```
+npm run install
+```
+
+一键启动所有所有应用
+```
+npm start
+```
+
+通过 [http://localhost:8080/](http://localhost:8080/) 访问主应用。
+
+## 发布
+一键构建并打包所有主子应用
+```
+npm run build
+```
+
+

@@ -32,7 +32,10 @@
 - [x] 手写 instanceof 方法
 - [x] 手写 new 操作符
 - [x] 手写 Event Bus 
-- [x] 手写forEach
+- [x] 手写forEach myForEach.js
+- [x] 浅拷贝  shalowCopy.js   
+- [x] 深拷贝  deepCopy.js    
+- [x] 创建自定义事件 customEvent.js  
 - [ ] 手写 Promise
 - [ ] 手写 Promise.then
 - [ ] 手写 Promise.all
@@ -44,21 +47,6 @@
 - [ ] 手写 apply 函数
 - [ ] 手写 bind 函数
 - [ ] V函数柯里化的实现
-- [ ] 实现AJAX请求
-- [ ] 使用Promise封装AJAX请求
-- [ ] 实现浅拷贝
-- [ ] 手写 new 操作符
-- [ ] 手写 Promise
-- [ ] 手写 Promise.then
-- [ ] 手写 Promise.all
-- [ ] 手写 Promise.race
-- [ ] 手写防抖函数
-- [ ] 手写节流函数
-- [ ] 手写类型判断函数  
-- [ ] 手写 call 函数
-- [ ] 手写 apply 函数
-- [ ] 手写 bind 函数
-- [ ] 函数柯里化的实现
 - [ ] 实现AJAX请求
 - [ ] 使用Promise封装AJAX请求
 
@@ -79,3 +67,5 @@
 
 - [x] heartbeat 实现一个心跳的按钮,要求缩小的时间比放大的时间长
 - [x] IntersectionObserver 判断当前元素 进入视口
+- [x] getMostFrequentElement 获取页面上 哪个元素最多
+- [x] checkWhiteScreen 前端白屏检测方法
