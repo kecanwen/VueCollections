@@ -61,6 +61,8 @@
 - [x] 删除有序数组中的重复项 removeDuplicates
 - [x] 移除元素 removeElement
 - [x] 斐波那契数 fib
+- [x] 生成1000个 不重复的四位数验证码 create10000Code
+- [x] 将一串英文字符串中的大写字母改为小写字母，小写字母改为大写字母 hyphenate
 
 
 <h3 align="center">场景类 [sence]</h3>
