@@ -47,7 +47,7 @@
 - [ ] 手写 apply 函数
 - [ ] 手写 bind 函数
 - [ ] V函数柯里化的实现
-- [ ] 实现AJAX请求
+- [ ] 实现AJAX 请求
 - [ ] 使用Promise封装AJAX请求
 
 
