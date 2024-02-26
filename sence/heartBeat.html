@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实现一个心跳的按钮。要求缩小的时间比放大的时间长</title>
+    <style>
+        #heartbeat-btn {
+            position: absolute;
+            left: 50%;
+            top: 120px;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            border-radius: 50%;
+            background-color: #fff;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            animation: heartbeat 1s infinite;
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+
+            70% {
+                transform: scale(0.5);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button id="heartbeat-btn">Heartbeat</button>
+</body>
+<script>
+    const heartbeatBtn = document.getElementById('heartbeat-btn');
+
+    heartbeatBtn.addEventListener('animationiteration', () => {
+        heartbeatBtn.style.animationDuration = '4s';
+    });
+</script>
+
+</html>

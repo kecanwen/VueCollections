@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container{
+            height: 200vh;
+            position: relative;
+        }
+        #box {
+            position: absolute;
+            bottom: 0;
+            width: 200px;
+            height: 200px;
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="box"></div>
+    </div>
+   
+
+    <script>
+         let callback = (entries, observer) => {
+            entries.forEach((entry) => {
+                if(entry.isIntersecting){
+                    console.log('进入了');
+                    observer.unobserve(entry.target);
+                }
+            
+                
+            });
+        };
+
+        const intersectinObserver = new IntersectionObserver(callback, {
+            rootMargin: '0px',// 根元素的边距
+            threshold: 1// 交叉比例大阈值
+        });
+
+        const box = document.querySelector('#box');
+
+        intersectinObserver.observe(box);
+
+    </script>
+</body>
+
+</html>

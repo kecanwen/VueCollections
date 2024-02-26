@@ -31,6 +31,11 @@
 - [x] 手写 Object.create
 - [x] 手写 instanceof 方法
 - [x] 手写 new 操作符
+- [x] 手写 Event Bus 
+- [x] 手写forEach myForEach.js
+- [x] 浅拷贝  shalowCopy.js   
+- [x] 深拷贝  deepCopy.js    
+- [x] 创建自定义事件 customEvent.js  
 - [ ] 手写 Promise
 - [ ] 手写 Promise.then
 - [ ] 手写 Promise.all
@@ -42,22 +47,7 @@
 - [ ] 手写 apply 函数
 - [ ] 手写 bind 函数
 - [ ] V函数柯里化的实现
-- [ ] 实现AJAX请求
-- [ ] 使用Promise封装AJAX请求
-- [ ] 实现浅拷贝
-- [ ] 手写 new 操作符
-- [ ] 手写 Promise
-- [ ] 手写 Promise.then
-- [ ] 手写 Promise.all
-- [ ] 手写 Promise.race
-- [ ] 手写防抖函数
-- [ ] 手写节流函数
-- [ ] 手写类型判断函数  
-- [ ] 手写 call 函数
-- [ ] 手写 apply 函数
-- [ ] 手写 bind 函数
-- [ ] 函数柯里化的实现
-- [ ] 实现AJAX请求
+- [ ] 实现AJAX 请求
 - [ ] 使用Promise封装AJAX请求
 
 
@@ -70,3 +60,15 @@
 - [x] 合并两个有序数组 merge2orderArray
 - [x] 删除有序数组中的重复项 removeDuplicates
 - [x] 移除元素 removeElement
+- [x] 斐波那契数 fib
+- [x] 生成1000个 不重复的四位数验证码 create10000Code
+- [x] 将一串英文字符串中的大写字母改为小写字母，小写字母改为大写字母 hyphenate.js
+- [x] 编写一个函数，检查给定的值是否是给定类或超类的实例 
+
+
+<h3 align="center">场景类 [sence]</h3>
+
+- [x] heartbeat 实现一个心跳的按钮,要求缩小的时间比放大的时间长
+- [x] IntersectionObserver 判断当前元素 进入视口
+- [x] getMostFrequentElement 获取页面上 哪个元素最多
+- [x] checkWhiteScreen 前端白屏检测方法
