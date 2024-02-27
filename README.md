@@ -75,3 +75,14 @@
 - [x] IntersectionObserver 判断当前元素 进入视口
 - [x] getMostFrequentElement 获取页面上 哪个元素最多
 - [x] checkWhiteScreen 前端白屏检测方法
+
+
+<h3 align="center">canvas绘制大量数据表格</h3>
+
+- [ ] 分批绘制
+- [ ] 使用缓存
+- [ ] 离屏渲染
+- [ ] 利用web worker
+- [ ] requestAnimationFrame时间分片
+- [ ] 对Canvas API优化
+- [ ] 设置合理数据结构

@@ -26,3 +26,17 @@ export const compareVersion = function(version1,version2){
     }
     return 0;//循环走完 那肯定是一致的
 }
+
+/* 
+题目： 输入一组版本号，输出从大到小的排序
+输入： ['2.1.0.1', '0.402.1', '10.2.1', '5.1.2', '1.0.4.5']
+输出： ['10.2.1', '5.1.2', '2.1.0.1', '1.0.4.5', '0.402.1']
+*/
+const versionSort = (array)=>{
+    arr.sort((a,b)=>{
+        let i = 0;
+        const arr1 = a.split('.');// [2,1,0,1]
+        const arr2 = b.split('');
+        
+    })
+}
