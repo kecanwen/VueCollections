@@ -40,13 +40,13 @@
 - [ ] 手写 Promise.then
 - [ ] 手写 Promise.all
 - [ ] 手写 Promise.race
-- [ ] 手写防抖函数
-- [ ] 手写节流函数
+- [x] 手写防抖函数
+- [x] 手写节流函数
 - [ ] 手写类型判断函数  
 - [ ] 手写 call 函数
 - [ ] 手写 apply 函数
 - [ ] 手写 bind 函数
-- [ ] V函数柯里化的实现
+- [ ] 函数柯里化的实现
 - [ ] 实现AJAX 请求
 - [ ] 使用Promise封装AJAX请求
 
@@ -77,7 +77,7 @@
 - [x] checkWhiteScreen 前端白屏检测方法
 
 
-<h3 align="center">canvas绘制大量数据表格</h3>
+<h3 align="center">canvas绘制大量数据表格  canvasTable</h3>
 
 - [ ] 分批绘制
 - [ ] 使用缓存

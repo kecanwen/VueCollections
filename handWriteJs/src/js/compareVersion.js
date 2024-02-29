@@ -36,7 +36,22 @@ const versionSort = (array)=>{
     arr.sort((a,b)=>{
         let i = 0;
         const arr1 = a.split('.');// [2,1,0,1]
-        const arr2 = b.split('');
+        const arr2 = b.split('.');
+        while(i < arr1.length || i < arr2.length) {
+            let intX = 0;let intY = 0;
+            if(i < arr1.length){
+                intX = parseInt(arr1[i]);
+            }
+            if(i < arr2.length){
+                intY = parseInt(arr2[i])
+            }
+            if(intX > intY){
+                return 1
+            }
+            if(intX < intY){
+                return -1
+            }
+        }
         
     })
 }
