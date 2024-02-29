@@ -36,6 +36,7 @@
 - [x] 浅拷贝  shalowCopy.js   
 - [x] 深拷贝  deepCopy.js    
 - [x] 创建自定义事件 customEvent.js  
+- [x] 手写async await函数 myAsyncFunction.js  
 - [ ] 手写 Promise
 - [ ] 手写 Promise.then
 - [ ] 手写 Promise.all
@@ -67,6 +68,7 @@
 - [x] 字符串驼峰化  toCamelCase
 - [x] 字符[a-zA-Z]重复  checkDuplicateLetters
 - [x] 回文串 isPalindrome
+- [x] 输入一个字符串，找到第一个不重复字符的下标 findOneStr
 
 
 <h3 align="center">场景类 [sence]</h3>
