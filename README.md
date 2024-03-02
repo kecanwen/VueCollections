@@ -53,7 +53,7 @@
 
 
 <h3 align="center">算法相关</h3>
-
+- [] 排序算法 sort
 - [x] 实现版本号对比方法  compareVersion.js
 - [x] 轮转数组 rotateArray
 - [x] 多数元素  majorityElement
