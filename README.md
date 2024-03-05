@@ -53,7 +53,7 @@
 
 
 <h3 align="center">算法相关</h3>
-- [] 排序算法 sort
+- [x] 排序算法 sort 冒泡 
 - [x] 实现版本号对比方法  compareVersion.js
 - [x] 轮转数组 rotateArray
 - [x] 多数元素  majorityElement
@@ -69,6 +69,9 @@
 - [x] 字符[a-zA-Z]重复  checkDuplicateLetters
 - [x] 回文串 isPalindrome
 - [x] 输入一个字符串，找到第一个不重复字符的下标 findOneStr
+- [x] 输入：s = "3[a2[c]]" 输出：accaccacc  formatStr
+- [x] 实现日期格式化函数 dateFormat 
+- [x] 加一  plusOne
 
 
 <h3 align="center">场景类 [sence]</h3>
