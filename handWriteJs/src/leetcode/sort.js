@@ -13,18 +13,10 @@ function bubbleSort(arr) {
   return arr;
 }
 
-// 写一个 选择排序
-function selectionSort(arr) {
-    let n = arr.length;
-    for (let i = 0; i < n - 1; i++) {
-      for (let j = i + 1; j < n; i++) {
-        if()
-      }
-    }
-    return arr;
-  }
-  
-  let arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
-  console.log(selectionSort(arr));
+
+
+
+
+
 
 
