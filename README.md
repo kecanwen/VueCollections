@@ -31,7 +31,7 @@
 - [x] 手写 Object.create
 - [x] 手写 instanceof 方法
 - [x] 手写 new 操作符
-- [x] 手写 Event Bus 
+- [x] 手写 Event Bus  发布订阅模式  eventBus.js
 - [x] 手写forEach myForEach.js
 - [x] 浅拷贝  shalowCopy.js   
 - [x] 深拷贝  deepCopy.js    
@@ -47,7 +47,7 @@
 - [ ] 手写 call 函数
 - [ ] 手写 apply 函数
 - [ ] 手写 bind 函数
-- [ ] 函数柯里化的实现
+- [ ] 函数柯里化的实现 curry
 - [ ] 实现AJAX 请求
 - [ ] 使用Promise封装AJAX请求
 
