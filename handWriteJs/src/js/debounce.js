@@ -5,10 +5,9 @@ const debounce = (fn, delay)=>{
     let timer = null;
     return function(){
         const that = this;
-        const args = arguments;
         clearTimeout(timer);
         timer = setTimeout(()=>{
-            fn.apply(that,args)
+            fn.apply(that,arguments)
         },delay)
     }
 }

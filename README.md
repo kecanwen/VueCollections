@@ -37,10 +37,7 @@
 - [x] 深拷贝  deepCopy.js    
 - [x] 创建自定义事件 customEvent.js  
 - [x] 手写async await函数 myAsyncFunction.js  
-- [ ] 手写 Promise
-- [ ] 手写 Promise.then
-- [ ] 手写 Promise.all
-- [ ] 手写 Promise.race
+- [x] 手写 Promise Promise.js
 - [x] 手写防抖函数
 - [x] 手写节流函数
 - [ ] 手写类型判断函数  

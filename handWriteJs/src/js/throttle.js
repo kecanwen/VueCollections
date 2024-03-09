@@ -14,4 +14,4 @@ const throttle = (fn,delay)=>{
             canRun = false;
         },delay)
     }
-}
+} 
