@@ -26,14 +26,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git@fengxianqi.github.com:fengxianqi/qiankun-example.git"
+    "type": "git"
   },
   "keywords": [
     "qiankun",
     "qiankun-example",
     "demo"
   ],
-  "author": "fengxianqi",
   "license": "MIT"
 }
