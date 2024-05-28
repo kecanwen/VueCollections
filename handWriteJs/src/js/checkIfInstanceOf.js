@@ -4,3 +4,4 @@ var checkIfInstanceOf = function (obj, classFunction) {
       return false;
     return Object(obj) instanceof classFunction;
 };
+
